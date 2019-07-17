@@ -1,0 +1,31 @@
+body {
+    background: url(CastleBeauty.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.whatisit {
+    display: flex;
+    justify-content: center;
+    color: #6463ff;
+}
+.titleImg {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.Description h2 {
+    color: #9d21ff;
+    border: solid;
+    border-radius: 50px;
+    border-color: blue;
+    margin: 30px;
+
+}
+p {
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+ }

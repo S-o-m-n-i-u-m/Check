@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background: url(ManHorse.jpg) no-repeat center top / cover;
+    height: 970px;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.menu li a {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px 0.5px #0a1fff, 0 0 0.5em #6b0cff;
+    color: #eff2ff;
+    margin: 30px;
+    list-style: none;
+}
+
+.menu li a:hover {
+    text-shadow: 0.5px 0.5px 0.5px #1260ff, 0 0 0.5em #3720ff; /* Параметры тени */
+    color: #00d8ff;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    padding-top: 200px;
+    cursor: pointer;
+
+}
+
+
+img {
+    margin-top: 100px;
+    left: 1000px;
+    height: 180px;
+    width: 250px;
+}
+
+img.active {
+    position: fixed;
+    left: 40%;
+    top: 20%;
+    height: 50%;
+    width: 50%;
+}
